@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    /*Alinha os flex itens de acordo com o eixo do container.*/
+    align-items:center;
+    /*Alinha os itens flex no container de acordo com a direção*/
+    justify-content: center;
+}   
+
+section  {
+     /*Torna o elemento um flex container automaticamente,
+    transformando todos os seus filhos diretos em flex itens.*/
+    display: flex;
+    
+}
+
+section div {
+    margin: 10px
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
