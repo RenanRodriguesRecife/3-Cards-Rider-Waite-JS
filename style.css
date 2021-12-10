@@ -27,9 +27,12 @@ h1 {
     text-align: center;
 }
 
-
-
-
+@media (max-width: 768px) {
+    section
+    {
+        flex-direction: column;
+    }
+}
 
 
 
