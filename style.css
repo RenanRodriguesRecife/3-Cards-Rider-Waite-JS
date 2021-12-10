@@ -20,11 +20,7 @@ section  {
      /*Torna o elemento um flex container automaticamente,
     transformando todos os seus filhos diretos em flex itens.*/
     display: flex;
-    
-}
-
-section div {
-    margin: 10px
+    gap: 15px;
 }
 
 h1 {
